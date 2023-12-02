@@ -10,7 +10,7 @@ const handler = NextAuth({
 
         authorization:{
     params:{
-        scope:"openid email profile offline_access Idtp.Admin"
+        scope:"openid email profile offline_access"
     }
         },
         
